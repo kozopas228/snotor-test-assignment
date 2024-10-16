@@ -1,0 +1,52 @@
+[
+	{
+		"id": 2002,
+		"name": "Nikola Tesla",
+		"mobile": "791-121-0094",
+		"mobileCarrier": "at&t",
+		"paymentMethods": {
+			"defaultPaymentMethod": "card",
+			"card": {
+				"brand": "Mastercard",
+				"last4Digits": "4242"
+			},
+			"usBankAccount": {
+				"bankName": "Citigroup",
+				"accountType": "checking",
+				"accountNumberLastFourDigits": "2933"
+			}
+		}
+	},
+	{
+		"id": 2001,
+		"name": "Thomas Edison",
+		"email": "thomas.edison@gmail.com",
+		"mobile": "800-432-1753",
+		"paymentMethods": {
+			"defaultPaymentMethod": "usBankAccount",
+			"usBankAccount": {
+				"bankName": "JP Morgan Chase",
+				"accountType": "checking",
+				"accountNumberLastFourDigits": "8993"
+			}
+		}
+	},
+	{
+		"id": 2003,
+		"name": "Guglielmo Marconi",
+		"email": "guglielmo.marconi@gmail.com",
+		"paymentMethods": {
+			"defaultPaymentMethod": "euBankAccount",
+			"euBankAccount": {
+				"bankName": "HSBC",
+				"countryCode": "GB",
+				"ibanLast4Digits": "1219"
+			},
+			"card": {
+				"brand": "VISA",
+				"last4Digits": "5749"
+			}
+		}
+	}
+
+]
